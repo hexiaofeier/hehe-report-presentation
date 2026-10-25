@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "profile": "standalone-delivery",
+  "display_name": "hehe-report-presentation",
+  "repository_slug": "hehe-report-presentation",
+  "version": "2026.10.25",
+  "namespace": "hehe-",
+  "entry_skill": "hehe-report-presentation",
+  "skills": [
+    {
+      "name": "hehe-report-presentation",
+      "role": "delivery",
+      "required_files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "assets/business.css",
+        "assets/business_layouts.json",
+        "assets/cover_chapter.json",
+        "assets/example.json",
+        "assets/modes.css",
+        "assets/report.html",
+        "assets/scroll-sidebar.css",
+        "assets/scroll-sidebar.js",
+        "references/HTML制作与核验.md",
+        "references/可编辑PPT交付.md",
+        "references/商业报告视觉编排.md",
+        "references/图形优先与生成检查.md",
+        "references/多形态交付.md",
+        "references/版式与组件选用.md",
+        "scripts/business_components.py",
+        "scripts/components.py",
+        "scripts/export_and_check.py",
+        "scripts/export_pptx.py",
+        "scripts/markdown_source.py",
+        "scripts/render_report.py",
+        "scripts/test_visual_plan.py",
+        "scripts/visual_plan.py",
+        "依赖清单.md"
+      ]
+    }
+  ],
+  "name_exceptions": [
+    "sha-hao-yong",
+    "tanzi",
+    "sou-cha-ling",
+    "baojie"
+  ],
+  "optional_external_skills": {
+    "hehe-report-writing": "独立呈现包的可选文字编辑及分页接口；可直接接收合格正文，无须安装。"
+  },
+  "source_skill_sha256": {
+    "hehe-report-presentation": "8e68b2b59cb016cda90eb97f008c721925ca2c2e2900f4257ca30aefdaff4fd4"
+  },
+  "license": "MIT"
+}
